@@ -1,0 +1,35 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "A Node.js RESTFul API Tutorial Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carnevali/RESTFul-Using-NodeJs.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Felipe Luiz Carnevali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carnevali/RESTFul-Using-NodeJs/issues"
+  },
+  "homepage": "https://github.com/Carnevali/RESTFul-Using-NodeJs#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
